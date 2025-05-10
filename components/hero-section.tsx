@@ -54,7 +54,7 @@ export default function HeroSection() {
         )}
       />
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] bg-background"></div>
-      <Image src={ywc20Logo} alt="YWC20 Logo" className="logo h-50 w-auto" />
+      <Image src={ywc20Logo} alt="YWC20 Logo" className="logo h-50 w-auto max-sm:h-30 max-md:h-40"/>
       </div>
   
       </section>
